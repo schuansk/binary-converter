@@ -5,11 +5,12 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <body>
-            <Main />
-            <NextScript />
-          </body>
+          <link rel="icon" href="/favicon.ico" />
         </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
       </Html>
     );
   }
