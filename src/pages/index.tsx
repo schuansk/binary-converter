@@ -94,9 +94,9 @@ export default function Home() {
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <div className="w-50vw h-60vh flex flex-col items-center space-y-4 justify-evenly bg-white shadow-lg rounded-lg overflow-hidden border-t-10 border-blue-500">
-        <div className="px-4 py-2">
-          <h2 className=" flex items-center text-gray-800 text-5xl font-semibold">
+      <div className="w-full h-full lg:w-50vw lg:h-60vh flex flex-col items-center space-y-4 justify-start lg:justify-evenly bg-white shadow-lg lg:rounded-lg overflow-hidden border-t-10 border-blue-500">
+        <div className="px-4 py-2 mt-20 lg:mt-0">
+          <h2 className=" flex items-center text-gray-800 text-3xl xl:text-5xl font-semibold">
             Convert Decimal
             <span className="text-blue-500">
               <TbArrowsExchange />
@@ -104,7 +104,7 @@ export default function Home() {
             Binary
           </h2>
         </div>
-        <div className="flex items-center justify-center space-x-4 px-4 w-full">
+        <div className="flex flex-col md:flex-row items-center justify-center space-x-4 px-4 w-full">
           <Textarea
             active={convertOption === 'decimalToBinary'}
             title="Decimal"
