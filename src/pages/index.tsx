@@ -94,7 +94,7 @@ export default function Home() {
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <div className="w-full h-full lg:w-50vw lg:h-60vh flex flex-col items-center space-y-4 justify-start lg:justify-evenly bg-white shadow-lg lg:rounded-lg overflow-hidden border-t-10 border-blue-500">
+      <div className="w-full h-auto lg:w-50vw lg:h-60vh flex flex-col items-center space-y-4 justify-start lg:justify-evenly bg-white shadow-lg lg:rounded-lg border-t-10 border-blue-500 pb-4 lg:pb-0">
         <div className="px-4 py-2 mt-20 lg:mt-0">
           <h2 className=" flex items-center text-gray-800 text-3xl xl:text-5xl font-semibold">
             Convert Decimal
