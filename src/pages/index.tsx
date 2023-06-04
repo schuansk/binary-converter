@@ -1,5 +1,6 @@
 import { Button } from '@/components/Button';
 import { Textarea } from '@/components/Textarea';
+import Head from 'next/head';
 import React from 'react';
 import { TbArrowsExchange } from 'react-icons/tb';
 
@@ -76,6 +77,23 @@ export default function Home() {
 
   return (
     <div className="flex items-center justify-center h-screen w-screen">
+      <Head>
+        <title>Decimal and Binary Converter</title>
+        <meta
+          name="description"
+          content="A free online tool for converting decimal numbers to binary and vice versa."
+        />
+        <meta
+          name="keywords"
+          content="Decimal, Binary, Converter, Online Tool"
+        />
+        <meta name="og:title" content="Decimal and Binary Converter" />
+        <meta
+          name="og:description"
+          content="A free online tool for converting decimal numbers to binary and vice versa."
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <div className="w-50vw h-60vh flex flex-col items-center space-y-4 justify-evenly bg-white shadow-lg rounded-lg overflow-hidden border-t-10 border-blue-500">
         <div className="px-4 py-2">
           <h2 className=" flex items-center text-gray-800 text-5xl font-semibold">
