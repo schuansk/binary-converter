@@ -1,6 +1,6 @@
 # Binary Converter
 
-[![License](https://img.shields.io/github/license/schuansk/binary-converter)](https://github.com/schuansk/binary-converter/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/schuansk/binary-converter?style=flat-square)](https://github.com/schuansk/binary-converter/blob/main/LICENSE)
 
 ## About The Project
 
